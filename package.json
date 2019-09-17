@@ -1,8 +1,8 @@
 {
-	"name": "randmovies",
+	"name": "random-movie-api",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "a random movie api",
+	"main": "src/app.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"develop": "nodemon src/app.js",
@@ -12,7 +12,9 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"express": "^4.17.1"
+		"express": "^4.17.1",
+		"lowdb": "^1.0.0",
+		"moment": "^2.24.0"
 	},
 	"devDependencies": {
 		"nodemon": "^1.19.2"
